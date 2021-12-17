@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I85KBNTlxL6ZXSvNSNrzuEscDgHAIF1eN1uuFiSjqatgD1kZ1zwd8numbxVUt9/GUhKVedbUXkueTgstBd+Hgg==",
+  "dgSpecHash": "SC6Qq4rQJlrlazPOqsfxLvCh2x2EHJHTw5YiQVsG4U3a5s8yhkk9VhYc+WMTspbTapjNFevZ2FLpjRa7lEH37w==",
   "success": true,
-  "projectFilePath": "D:\\notocar\\Apliaciones\\RetosCSharp\\SolicitarMotorisado\\RegistroPrueba\\Client\\RegistroPrueba.Client.csproj",
+  "projectFilePath": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Client\\RegistroPrueba.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tawa\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.1\\microsoft.aspnetcore.authorization.5.0.1.nupkg.sha512",
     "C:\\Users\\Tawa\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.1\\microsoft.aspnetcore.components.5.0.1.nupkg.sha512",

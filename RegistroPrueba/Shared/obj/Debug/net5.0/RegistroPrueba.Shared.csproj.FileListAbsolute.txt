@@ -34,3 +34,15 @@ D:\notocar\Apliaciones\RetosCSharp\SolicitarMotorisado\RegistroPrueba\Shared\obj
 D:\notocar\Apliaciones\RetosCSharp\SolicitarMotorisado\RegistroPrueba\Shared\obj\Debug\net5.0\RegistroPrueba.Shared.dll
 D:\notocar\Apliaciones\RetosCSharp\SolicitarMotorisado\RegistroPrueba\Shared\obj\Debug\net5.0\ref\RegistroPrueba.Shared.dll
 D:\notocar\Apliaciones\RetosCSharp\SolicitarMotorisado\RegistroPrueba\Shared\obj\Debug\net5.0\RegistroPrueba.Shared.pdb
+D:\notocar\Apliaciones\demo-signalr\RegistroPrueba\Shared\bin\Debug\net5.0\RegistroPrueba.Shared.deps.json
+D:\notocar\Apliaciones\demo-signalr\RegistroPrueba\Shared\bin\Debug\net5.0\RegistroPrueba.Shared.dll
+D:\notocar\Apliaciones\demo-signalr\RegistroPrueba\Shared\bin\Debug\net5.0\ref\RegistroPrueba.Shared.dll
+D:\notocar\Apliaciones\demo-signalr\RegistroPrueba\Shared\bin\Debug\net5.0\RegistroPrueba.Shared.pdb
+D:\notocar\Apliaciones\demo-signalr\RegistroPrueba\Shared\obj\Debug\net5.0\RegistroPrueba.Shared.csproj.AssemblyReference.cache
+D:\notocar\Apliaciones\demo-signalr\RegistroPrueba\Shared\obj\Debug\net5.0\RegistroPrueba.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\notocar\Apliaciones\demo-signalr\RegistroPrueba\Shared\obj\Debug\net5.0\RegistroPrueba.Shared.AssemblyInfoInputs.cache
+D:\notocar\Apliaciones\demo-signalr\RegistroPrueba\Shared\obj\Debug\net5.0\RegistroPrueba.Shared.AssemblyInfo.cs
+D:\notocar\Apliaciones\demo-signalr\RegistroPrueba\Shared\obj\Debug\net5.0\RegistroPrueba.Shared.csproj.CoreCompileInputs.cache
+D:\notocar\Apliaciones\demo-signalr\RegistroPrueba\Shared\obj\Debug\net5.0\RegistroPrueba.Shared.dll
+D:\notocar\Apliaciones\demo-signalr\RegistroPrueba\Shared\obj\Debug\net5.0\ref\RegistroPrueba.Shared.dll
+D:\notocar\Apliaciones\demo-signalr\RegistroPrueba\Shared\obj\Debug\net5.0\RegistroPrueba.Shared.pdb

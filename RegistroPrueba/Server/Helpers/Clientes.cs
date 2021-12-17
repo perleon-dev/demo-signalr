@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RegistroPrueba.Server.Helpers
 {
-    public class Clientes
+    public static class Clientes
     {
         public static List<Cliente> ListaCliente { get; set; } = new();
     }

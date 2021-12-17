@@ -1173,11 +1173,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\notocar\\Apliaciones\\RetosCSharp\\SolicitarMotorisado\\RegistroPrueba\\Server\\RegistroPrueba.Server.csproj",
+      "projectUniqueName": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Server\\RegistroPrueba.Server.csproj",
       "projectName": "RegistroPrueba.Server",
-      "projectPath": "D:\\notocar\\Apliaciones\\RetosCSharp\\SolicitarMotorisado\\RegistroPrueba\\Server\\RegistroPrueba.Server.csproj",
+      "projectPath": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Server\\RegistroPrueba.Server.csproj",
       "packagesPath": "C:\\Users\\Tawa\\.nuget\\packages\\",
-      "outputPath": "D:\\notocar\\Apliaciones\\RetosCSharp\\SolicitarMotorisado\\RegistroPrueba\\Server\\obj\\",
+      "outputPath": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1197,11 +1197,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\notocar\\Apliaciones\\RetosCSharp\\SolicitarMotorisado\\RegistroPrueba\\Client\\RegistroPrueba.Client.csproj": {
-              "projectPath": "D:\\notocar\\Apliaciones\\RetosCSharp\\SolicitarMotorisado\\RegistroPrueba\\Client\\RegistroPrueba.Client.csproj"
+            "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Client\\RegistroPrueba.Client.csproj": {
+              "projectPath": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Client\\RegistroPrueba.Client.csproj"
             },
-            "D:\\notocar\\Apliaciones\\RetosCSharp\\SolicitarMotorisado\\RegistroPrueba\\Shared\\RegistroPrueba.Shared.csproj": {
-              "projectPath": "D:\\notocar\\Apliaciones\\RetosCSharp\\SolicitarMotorisado\\RegistroPrueba\\Shared\\RegistroPrueba.Shared.csproj"
+            "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Shared\\RegistroPrueba.Shared.csproj": {
+              "projectPath": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Shared\\RegistroPrueba.Shared.csproj"
             }
           }
         }
