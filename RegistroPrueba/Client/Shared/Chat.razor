@@ -1,0 +1,42 @@
+﻿<div class="card mr-4" style="max-width: 300px;">
+    <header class="card-header">
+        <p class="card-header-title my-0">
+            @UserMessages.Nombre
+        </p>
+
+        <a href="#" class="card-header-icon p-0 mr-1" aria-label="more options" @onclick="Minimizar">
+            <span class="icon">
+                <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+        </a>
+
+        <a href="#" class="card-header-icon p-0 mr-3" aria-label="more options" @onclick="Cerrar">
+            <span class="icon">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </span>
+        </a>
+    </header>
+    <div class="card-content" style="height: 300px; width: 100%; overflow-y: auto;">
+        <div class="content">
+            <ListaGenerica ListObject="UserMessages.Mesanjes">
+                <Registro Context="Mensaje">
+                        <div class="@((Mensaje.Emisor)?"has-text-right messageEmisor bg-emisor":"has-text-left messageReceptor bg-receptor") p-2 mt-2 has-text-weight-bold has-text-white" >
+                            <div style="word-wrap: break-word;">
+                                @Mensaje.Mensaje
+                            </div>
+                        </div>
+                </Registro>
+            </ListaGenerica>
+        </div>
+    </div>
+    <footer class="card-footer is-justify-content-center is-align-content-center p-2">
+        <p class="control has-icons-left my-0">
+            <input class="input is-link" type="text" @ref="InputMessage" @bind-value="MessageUser.Mensaje" 
+                   @bind-value:event="oninput" @onkeypress="@((KeyboardEventArgs e) => RedactarMensaje(e))">
+            <span class="icon is-left">
+                <i class="fas fa-user" aria-hidden="true"></i>
+            </span>
+        </p>
+        <button class="button is-info is-light" @onclick="EnviarMensaje">Info</button>
+    </footer>
+</div>
