@@ -105,6 +105,7 @@ namespace RegistroPrueba.Client.Pages
         {
             await HubConection.StartAsync(); /* Inicia una conexión con el servidor */
             await HubConection.SendAsync("SendLogin", Cliente); /*  Metodo del servidor */
+            Console.WriteLine($"Nombre : {Cliente.Nombre}");
         }
 
         protected async Task Login(bool? isAuthenticated)
