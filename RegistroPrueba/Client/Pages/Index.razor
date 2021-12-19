@@ -1,0 +1,152 @@
+﻿@page "/"
+
+<div class=" container">
+    <div class="mb-5">
+        <div class="tabs is-toggle is-toggle-rounded">
+            <ul class="mx-0">
+                <li class="is-active">
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-image"></i></span>
+                        <span>Pictures</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-music"></i></span>
+                        <span>Music</span>
+                    </a>
+                </li>
+                @if (IsConnected)
+                {
+                    <li>
+                        <a @onclick="(() => CModalListUsers.EventoModal())">
+                            <span class="icon is-small"><i class="fas fa-users"></i></span>
+                            <span>Usuarios en Linea @ListaCliente.Count</span>
+                        </a>
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        <a @onclick="(() => CModalLogin.EventoModal())">
+                            <span class="icon is-small"><i class="fas fa-user"></i></span>
+                            <span>Login</span>
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+
+    @if (IsConnected)
+    {
+        <div class="columns is-narrow-touch">
+            <div class="column">
+                <div class="columns is-flex-wrap-wrap is-tablet">
+
+                    <ListaGenerica ListObject="@ListaHorario">
+                        <Registro Context="Horario">
+                            <HorarioItem Horario="@Horario" Escoger="EscogerHorario" Cliente="UserCliente" Cancelar="CancelarHorario" />
+                        </Registro>
+                    </ListaGenerica>
+
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <section class="section">
+            <div class="container">
+                <h1 class="title">Bienvenido !!</h1>
+                <h2 class="subtitle has-text-grey-light mt-5">
+                    Para poder iniciar con el serivico es necesario <strong class="has-text-grey">Logearte</strong>, no es nada complejo solo ingresa tu nombre
+                </h2>
+            </div>
+        </section>
+    }
+
+    <div class="container navbar is-fixed-bottom is-flex-wrap-wrap" style="background-color: rgba(0, 0, 0, 0)">
+        <ListaGenerica ListObject="@ListaMensajeUsuarios.ListaMensajeUsuarios">
+            <Registro Context="UserM">
+                <Chat UserMessages="@UserM" EnviarMensajePrivado="MensajePrivado" MinimizarMessagesUser="MinimizarMessagesUser" CloseMessagesUser="CloseMessagesUser"  />
+            </Registro>
+        </ListaGenerica>
+
+        <div class="pr-2" style="position:fixed; right: 0px; bottom: 0px;">
+
+            <ListaGenerica ListObject="@ListaMensajeUsuariosMin.ListaMensajeUsuarios">
+                <Registro Context="MessageWaiting">
+                    <IconChat MessagesUser="@MessageWaiting" MoverMessagesUser="MaximizarMessagesUser" />
+                </Registro>
+            </ListaGenerica>
+
+        </div>
+    </div>
+
+
+    <Modal @ref="CModalLogin" Title="Login">
+        <Formulario>
+            <div class="has-background-white pt-3">
+                <EditForm Model="Cliente" OnValidSubmit="(()=>Login(true))">
+                    <DataAnnotationsValidator />
+                    <section class="modal-card-body">
+                        <div class="field px-4">
+                            <p class="control has-icons-left has-icons-right mb-1">
+                                <InputText class="input" placeholder="Usuario" @bind-Value="Cliente.Nombre" />
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                                <span class="icon is-small is-right">
+                                    <i class="fas fa-check"></i>
+                                </span>
+                            </p>
+
+                            <ValidationMessage For="(()=>Cliente.Nombre)" />
+                        </div>
+                    </section>
+                    <footer class="modal-card-foot">
+                        <button type="submit" class="button is-success">Save changes</button>
+                        <button class="button">Cancel</button>
+                    </footer>
+                </EditForm>
+            </div>
+        </Formulario>
+    </Modal>
+
+    <Modal @ref="CModalListUsers" Title="Usuarios Conectados">
+        <Formulario>
+            <div class="has-background-white pt-5">
+                <div class="modal-card-body">
+                    <article class="panel is-link">
+                        <ListaGenerica ListObject="@ListaCliente">
+                            <Registro Context="User">
+                                <UserChatItem User="@User" EnviarMensaje="ComenzarChat" />
+                            </Registro>
+                        </ListaGenerica>
+                    </article>
+                </div>
+                <div class="modal-card-foot is-block">
+                    <article class="panel is-link">
+                        <div class="panel-block">
+                            <p class="control has-icons-left">
+                                <input class="input is-link" type="text" placeholder="Buscar" @bind-value="@UsuarioFind"
+                                       @bind-value:event="oninput" @onkeypress="@((KeyboardEventArgs e) => BuscarUsuario(e) )">
+                                <span class="icon is-left">
+                                    <i class="fas fa-user" aria-hidden="true"></i>
+                                </span>
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+        </Formulario>
+    </Modal>
+
+
+</div>
+
+
+
