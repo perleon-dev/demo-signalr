@@ -1583,11 +1583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Client\\RegistroPrueba.Client.csproj",
+      "projectUniqueName": "D:\\notocar\\Apliaciones\\demo-signalr\\demo-signalr\\RegistroPrueba\\Client\\RegistroPrueba.Client.csproj",
       "projectName": "RegistroPrueba.Client",
-      "projectPath": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Client\\RegistroPrueba.Client.csproj",
+      "projectPath": "D:\\notocar\\Apliaciones\\demo-signalr\\demo-signalr\\RegistroPrueba\\Client\\RegistroPrueba.Client.csproj",
       "packagesPath": "C:\\Users\\Tawa\\.nuget\\packages\\",
-      "outputPath": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Client\\obj\\",
+      "outputPath": "D:\\notocar\\Apliaciones\\demo-signalr\\demo-signalr\\RegistroPrueba\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1607,8 +1607,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Shared\\RegistroPrueba.Shared.csproj": {
-              "projectPath": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Shared\\RegistroPrueba.Shared.csproj"
+            "D:\\notocar\\Apliaciones\\demo-signalr\\demo-signalr\\RegistroPrueba\\Shared\\RegistroPrueba.Shared.csproj": {
+              "projectPath": "D:\\notocar\\Apliaciones\\demo-signalr\\demo-signalr\\RegistroPrueba\\Shared\\RegistroPrueba.Shared.csproj"
             }
           }
         }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Shared\\RegistroPrueba.Shared.csproj",
+      "projectUniqueName": "D:\\notocar\\Apliaciones\\demo-signalr\\demo-signalr\\RegistroPrueba\\Shared\\RegistroPrueba.Shared.csproj",
       "projectName": "RegistroPrueba.Shared",
-      "projectPath": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Shared\\RegistroPrueba.Shared.csproj",
+      "projectPath": "D:\\notocar\\Apliaciones\\demo-signalr\\demo-signalr\\RegistroPrueba\\Shared\\RegistroPrueba.Shared.csproj",
       "packagesPath": "C:\\Users\\Tawa\\.nuget\\packages\\",
-      "outputPath": "D:\\notocar\\Apliaciones\\demo-signalr\\RegistroPrueba\\Shared\\obj\\",
+      "outputPath": "D:\\notocar\\Apliaciones\\demo-signalr\\demo-signalr\\RegistroPrueba\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
