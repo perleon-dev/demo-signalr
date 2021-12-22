@@ -52,6 +52,7 @@ namespace RegistroPrueba.Server
                 endpoints.MapControllers();
                 endpoints.MapFallbackToFile("index.html");
                 endpoints.MapHub<ServiceHub>("/serviceHub");
+
             });
         }
     }

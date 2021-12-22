@@ -145,9 +145,17 @@
               "target": "Package",
               "version": "[5.0.1, )"
             },
-            "Microsoft.Azure.SignalR": {
+            "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[1.13.0, )"
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
